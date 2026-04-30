@@ -2,9 +2,8 @@
   "name": "node-red-mes",
   "version": "1.0.0",
   "description": "MES Node-RED dashboard for thesis presentation",
-  "main": "index.js",
   "scripts": {
-    "start": "node-red -s settings.js -p $PORT"
+    "start": "node-red --userDir . -s settings.js -p $PORT"
   },
   "dependencies": {
     "node-red": "latest",
