@@ -8,6 +8,7 @@
   "dependencies": {
     "node-red": "latest",
     "node-red-node-mysql": "latest",
+    "node-red-dashboard": "latest",
     "@flowfuse/node-red-dashboard": "latest"
   },
   "engines": {
