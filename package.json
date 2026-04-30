@@ -1,0 +1,17 @@
+{
+  "name": "node-red-mes",
+  "version": "1.0.0",
+  "description": "MES Node-RED dashboard for thesis presentation",
+  "main": "index.js",
+  "scripts": {
+    "start": "node-red -s settings.js -p $PORT"
+  },
+  "dependencies": {
+    "node-red": "latest",
+    "node-red-node-mysql": "latest",
+    "@flowfuse/node-red-dashboard": "latest"
+  },
+  "engines": {
+    "node": "20.x"
+  }
+}
