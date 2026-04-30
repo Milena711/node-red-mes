@@ -5,17 +5,8 @@ module.exports = {
 
     credentialSecret: process.env.NODE_RED_CREDENTIAL_SECRET || "mes-laurea-secret",
 
-    adminAuth: {
-        type: "credentials",
-        users: [{
-            username: process.env.NODE_RED_USERNAME || "admin",
-            password: process.env.NODE_RED_PASSWORD_HASH || "$2b$08$wulMYH/X9AXvhNybUSFh/.b6ysjOPxWgX6G.SnxXLyN/EX2Kmi2Ty",
-            permissions: "*"
-        }]
-    },
-
-    httpNodeRoot: "/",
     httpAdminRoot: "/red",
+    httpNodeRoot: "/",
 
     functionGlobalContext: {},
 
